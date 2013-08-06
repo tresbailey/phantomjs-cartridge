@@ -5,12 +5,15 @@ PATH=/bin/:/usr/bin:$PATH
 source $OPENSHIFT_CARTRIDGE_SDK_BASH
 
 function start {
+    echo "started"
 }
 
 function stop {
+    echo "stopped"
 }
 
 function restart {
+    echo "restarted"
 }
 
 function catchall {
