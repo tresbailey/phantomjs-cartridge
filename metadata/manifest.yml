@@ -1,0 +1,21 @@
+Name: phantomjs
+Cartridge-Short-Name: PHANTOMJS
+Display-Name: PhantomJS Headless Browser Cartridge
+Description: "A cartridge for headless browser testing."
+Version: '0.1'
+License: "None"
+Vendor: Custom Cartridges Inc
+Cartridge-Version: 0.0.1
+Cartridge-Vendor: customcarts
+Source-Url: https://github.com/tresbailey/phantomjs-cartridge.git
+Categories:
+  - service
+Provides:
+  - phantomjs
+Cart-Data:
+  - Key: OPENSHIFT_PHANTOMJS_HOME
+    Type: environment
+    Description: "An environment variable for the Home dir of the binary"
+Group-Overrides:
+  - components:
+    - phantomjs
